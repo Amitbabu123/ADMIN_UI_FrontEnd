@@ -1,0 +1,41 @@
+/* Apply styling to the whole app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+.App-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the logo */
+.App-logo {
+  width: 80px;
+  height: 80px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/* Style the main content area */
+.App-content {
+  padding: 20px;
+}
+
+/* Apply styling to links */
+.App-link {
+  color: #007bff;
+}
+
+/* Define the spinning animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,68 @@
+.admin-container {
+  margin: 30px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Style the search select */
+.search-select {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+/* Style the search input */
+.search-input {
+  width: 800px;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+}
+
+/* Style the search button */
+.search-button {
+  background-color: #1890ff;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #40a9ff;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 10px;
+}
+/* Home.css */
+
+/* Add styling for the footer */
+.app-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 25px;
+  font-size: 14px;
+  color: #555;
+  z-index: 999;
+}

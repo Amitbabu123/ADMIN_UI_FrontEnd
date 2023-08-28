@@ -1,0 +1,62 @@
+.custom-table {
+  margin: 30px;
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .custom-table {
+    margin: 5px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Apply hover effect to table rows */
+.ant-table-tbody tr:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+/* Apply some spacing to table cells */
+.ant-table-cell {
+  padding: 10px;
+}
+
+/* Highlight selected row */
+.ant-table-row-selected {
+  background-color: #e6f7ff;
+}
+
+/* Style for action icons */
+.action-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+/* Add some margin between icons */
+.action-icons > span {
+  margin: 0 4px;
+}
+
+/* Style for delete button */
+.delete-button {
+  margin-top: 10px;
+}
+
+/* Modal styles */
+.ant-modal-content {
+  border-radius: 10px;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+}
+
+/* ContentEditable styles */
+p[contenteditable="true"] {
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+}
